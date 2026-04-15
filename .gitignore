@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Logs
+assets/logs/*.log
+
+# Temporary files
+tempfile_*.py
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,40 @@
+{
+  "WORK_START_TIME": "09:00",
+  "WORK_END_TIME": "17:40",
+  "REMIND_ADVANCE_MINUTES": 5,
+  "REMIND_INTERVAL_MINUTES": 3,
+  "MAX_REMIND_COUNT": 3,
+  "ABSOLUTE_MAX_REMIND_COUNT": 5,
+  "SKIP_WEEKEND": true,
+  "TITLE_TEXT": "⏰ 打卡提醒",
+  "BUTTON_CONFIRM_TEXT": "✓ 我已打卡",
+  "BUTTON_LATER_TEXT": "⏱ 稍后提醒",
+  "WINDOW_ALPHA": 1.0,
+  "ENABLE_RANDOM_MESSAGES": true,
+  "WORK_START_MESSAGES": [
+    "该打卡了！请拿出手机打开钉钉打卡",
+    "少年，打卡的时间到了！",
+    "叮！您的上班打卡提醒已送达～",
+    "美好的一天从打卡开始！",
+    "温馨提醒：上班打卡时间到啦",
+    "此乃打卡之时，速速行动！",
+    "天命之子，岂能忘记打卡？",
+    "老板在看着你哦～快去打卡！",
+    "打卡不积极，思想有问题 😏",
+    "全勤奖在向你招手！快打卡！"
+  ],
+  "WORK_END_MESSAGES": [
+    "该打卡了！请拿出手机打开钉钉打卡",
+    "下班啦！打完卡就可以回家咯～",
+    "辛苦一天，记得打卡再走哦",
+    "自由的气息在召唤！快打卡！",
+    "夕阳西下，打卡回家～",
+    "今日工作已结束，打卡撤退！",
+    "回家的诱惑：打完卡就能走啦",
+    "坚持住！打完这最后一次卡！",
+    "解放倒计时：先打卡！",
+    "收工大吉！别忘了打卡哦"
+  ],
+  "ENABLE_TIME_BASED_IMAGES": true,
+  "BACKGROUND_IMAGE": "D:\\Documents\\code\\pycharm\\OnTime\\assets\\images\\background.jpg"
+}
