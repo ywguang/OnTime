@@ -1,4 +1,4 @@
-# 打卡提醒助手
+# OnTime - 打卡提醒助手
 
 一款专为上班族设计的智能打卡提醒工具，支持上下班提醒、多次提醒、稍后提醒等功能，采用美观的毛玻璃圆角弹窗设计，支持根据时间段自动切换背景图片。
 
@@ -50,8 +50,8 @@ pip install -r requirements.txt
 ### 1. 克隆或下载项目
 
 ```bash
-git clone https://github.com/yourusername/dingdingKit.git
-cd dingdingKit
+git clone https://github.com/ywguang/OnTime.git
+cd OnTime
 ```
 
 ### 2. 安装依赖
@@ -126,37 +126,40 @@ python main.py
 ## 📁 项目结构
 
 ```
-dingdingKit/
+OnTime/
 ├── main.py                 # 主入口程序
-├── config.py               # 配置文件入口
 ├── requirements.txt        # 依赖包列表
 ├── README.md               # 项目说明文档
 ├── 使用指南.txt             # 详细使用指南
 │
 ├── config/                 # 配置模块
+│   ├── __init__.py
 │   ├── default_config.py   # 默认配置
 │   └── user_config.json    # 用户配置文件
 │
 ├── core/                   # 核心模块
+│   ├── __init__.py
 │   ├── notifier.py         # 弹窗通知模块
 │   ├── scheduler.py        # 定时任务调度
 │   └── text_manager.py     # 文案管理器
 │
 ├── ui/                     # 界面模块
+│   ├── __init__.py
 │   ├── config_ui.py        # 配置界面
 │   └── tray_icon.py        # 托盘图标
 │
 ├── utils/                  # 工具模块
+│   ├── __init__.py
 │   ├── image_manager.py    # 图片管理器
 │   ├── logger.py           # 日志记录
 │   └── path_helper.py      # 路径助手
 │
 └── assets/                 # 资源文件
     ├── images/             # 背景图片
-    │   ├── morning/        # 早晨主题
-    │   ├── daytime/        # 白天主题
-    │   ├── evening/        # 傍晚主题
-    │   ├── night/          # 夜晚主题
+    │   ├── morning/        # 早晨主题 (6:00-9:00)
+    │   ├── daytime/        # 白天主题 (9:00-17:00)
+    │   ├── evening/        # 傍晚主题 (17:00-19:00)
+    │   ├── night/          # 夜晚主题 (19:00-次日6:00)
     │   └── background.jpg  # 默认背景
     └── logs/               # 日志文件
         └── remind.log
@@ -337,8 +340,8 @@ IMAGE_FOLDERS = {
 
 如有问题或建议，欢迎通过以下方式联系：
 
-- 提交 [Issue](../../issues)
-- 发送邮件至：your.email@example.com
+- 提交 [Issue](https://github.com/ywguang/OnTime/issues)
+- GitHub: [ywguang](https://github.com/ywguang)
 
 ---
 
